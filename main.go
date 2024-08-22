@@ -1,15 +1,16 @@
 package main
 
 import (
-	"github.com/rajatsharma/raftkv/config"
-	"github.com/rajatsharma/raftkv/fsm"
-	"github.com/rajatsharma/raftkv/httpserver"
-	"github.com/rajatsharma/raftkv/node"
 	"log"
 	"net/http"
 	"os"
 	"path"
 	"sync"
+
+	"github.com/rajatsharma/raftkv/config"
+	"github.com/rajatsharma/raftkv/fsm"
+	"github.com/rajatsharma/raftkv/httpserver"
+	"github.com/rajatsharma/raftkv/node"
 )
 
 func main() {
